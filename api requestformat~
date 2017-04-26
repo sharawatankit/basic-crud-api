@@ -1,0 +1,18 @@
+
+1.To list all todos
+get localhost:3000/todos
+
+2.to get detail of todo 1
+get localhost:3000/todo/1
+
+3.to get all tasks of todo/1/tasks
+get localhost:3000/todo/1/tasks
+
+4.to create new todo
+post localhost:3000/todo?name=newtask&date=02/04/17.
+
+5.to update todo
+patch localhost:3000/todos/1/?date=02/10/15.
+
+6.to delete a todo
+delete localhost:3000/todos/8
